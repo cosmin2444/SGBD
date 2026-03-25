@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="spotify.spotify.controller.EditMelodie">
+   <children>
+      <TextField fx:id="denumire" layoutX="226.0" layoutY="78.0" />
+      <TextField fx:id="id_album" layoutX="226.0" layoutY="200.0" />
+      <Spinner fx:id="an_aparitie" layoutX="226.0" layoutY="139.0" />
+      <Label layoutX="158.0" layoutY="82.0" text="Denumire:" />
+      <Label layoutX="151.0" layoutY="143.0" text="An Aparitie:" />
+      <Label layoutX="162.0" layoutY="204.0" text="Id Album:" />
+      <Button layoutX="269.0" layoutY="338.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="63.0" text="Cancel" onAction="#onCancel"/>
+      <Button layoutX="269.0" layoutY="283.0" mnemonicParsing="false" text="Add/Edit" onAction="#onSave"/>
+   </children>
+</AnchorPane>

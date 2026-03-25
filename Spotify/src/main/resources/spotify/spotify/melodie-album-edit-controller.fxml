@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="263.0" prefWidth="370.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="spotify.spotify.controller.EditMelodieAlbum">
+    <TextField fx:id="denumire" layoutX="113.0" layoutY="78.0" />
+    <Label layoutX="46.0" layoutY="82.0" text="Denumire:" />
+    <Button layoutX="156.0" layoutY="189.0" mnemonicParsing="false" onAction="#onCancel" prefHeight="25.0" prefWidth="63.0" text="Cancel" />
+    <Button layoutX="156.0" layoutY="132.0" mnemonicParsing="false" onAction="#onSave" text="Add/Edit" />
+
+</AnchorPane>

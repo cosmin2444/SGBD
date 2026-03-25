@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="704.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="spotify.spotify.controller.MelodieAdminController">
+   <children>
+      <TableView layoutX="35.0" layoutY="33.0" prefHeight="327.0" prefWidth="327.0" fx:id="table">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Id" fx:id="idColumn"/>
+          <TableColumn prefWidth="122.0" text="Denumire" fx:id="denumireColumn"/>
+            <TableColumn prefWidth="67.0" text="An aparitie" fx:id="anAparitieColumn"/>
+            <TableColumn prefWidth="62.0" text="Id Album" fx:id="idAlbumColumn"/>
+        </columns>
+      </TableView>
+      <Button layoutX="421.0" layoutY="33.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="87.0" text="Add/Edit" onAction="#onAdd"/>
+      <Button layoutX="421.0" layoutY="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="87.0" text="Delete" onAction="#onDelete"/>
+      <Button layoutX="421.0" layoutY="335.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="87.0" text="Refresh" onAction="#onRefresh"/>
+      <Button layoutX="421.0" layoutY="146.0" mnemonicParsing="false" text="Nume Album" onAction="#onNumeAlbum"/>
+   </children>
+</AnchorPane>
